@@ -1,0 +1,50 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* Game */
+.game {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: url('https://i.postimg.cc/m1TJ5n4W/fondo.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.numbers {
+  width: 100%;
+  position: absolute;
+  color: #fff;
+  font: 10vw arial;
+  text-align: center;
+  pointer-events: none;
+}
+
+.score {
+  top: 10px;
+}
+
+.timer {
+  bottom: 10px;
+}
+
+.ball {
+  display: block;
+  width: 10vw;
+  height: 10vw;
+  background: url('https://i.postimg.cc/ftn6xLgL/beer.png') no-repeat center center;
+  background-size: contain;
+  position: absolute;
+  left: 46.5%;
+  top: 35%;
+  box-sizing: border-box;
+  border: 0; /* Se elimina el borde */
+  transition: .2s ease;
+}
+
+.end {
+  pointer-events: none;
+}
